@@ -1,0 +1,80 @@
+.signin-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Replace with actual logo font */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form > div {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-login {
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .btn-login:hover {
+    background-color: #007bb5;
+  }
+  
+  .signin-options {
+    margin-top: 10px;
+  }
+  
+  .forgot-password {
+    color: #385185;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-prompt {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signup-link {
+    color: #0095f6;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }

@@ -1,0 +1,70 @@
+.search-container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .search-input {
+    padding: 8px 12px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  
+  .search-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: #0095f6;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .search-button:hover {
+    background-color: #007bb5;
+  }
+  
+  .search-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-left: 10px;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .brewery {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .brewery h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .brewery p {
+    margin: 5px 0;
+  }
